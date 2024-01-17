@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;
+    scroll-behavior: smooth;
+}
+.container-fluid > .navbar-brand{
+    padding-left: 2rem;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color:white;
+}
+.nav-item{
+    padding: 0 2rem;
+}
+body{
+    background-color:rgb(33,37,41);
+}
+#bgnav{
+    background-color:rgba(192, 127, 0,1);
+}
+#bggold{
+    background-color: #FFD95A;
+}
+.text-blue{
+    color:#0022CB;
+}
+.text-yellow{
+    color:#FCCB06;
+}
+ul  li  a  i{
+    font-size:20px;
+}
+li{
+    list-style: none;
+}
+#text-small{
+    font-size:16px
+}
+#contact{
+    padding-left:2rem;
+}
+.skillsbar{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: #F4A13E;
+}
+.skillsbar:hover{
+    box-shadow: 0 8px 10px #785DDD !important;
+    background-color: rgba(238, 75, 43, 0.8)!important;
+}
+.skills{
+  background: rgba(0, 0, 22, 0.4);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 90%;
+  margin-top: 2rem;
+}
+.skills .row .container{
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  gap: 1.8rem;
+}
+.skillsbar span{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.projects{
+    position: relative;
+}
+.projectsdesc{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+}
+@media screen and (max-width:767px) {
+    .skills .row .container{
+        grid-template-columns: repeat(2, 1fr);
+      }
+    .projectsdesc{
+    font-size: 18px;
+     }
+    }
+@media screen and (max-width:500px) {
+    .projectsdesc{
+        font-size: 16px;
+        }
+    }
+    
